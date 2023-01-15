@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player de música desafio #boracodar - 01</title>
+    <link href="./player.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="player" id="player-1">
+        <div class="wrapper">
+          <img
+            class="cover"
+            src="./imgs/javier-miranda-MrWOCGKFVDg-unsplash.jpg"
+            alt="Capa do cd"
+          />
+          <div class="info">
+            <h1>Música boa pra caralho</h1>
+            <p>Banda pica das galáxia</p>
+          </div>
+          
+          <div class="controls">
+            
+            <div class="prev">
+              <svg
+                fill="#000000"
+                width="30"
+                height="30"
+                viewBox="0 0 32 32"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>rewind</title>
+                <path
+                  d="M15.343 16l5.657 5.657-2.828 2.828-8.486-8.485 8.485-8.485 2.829 2.828-5.657 5.657z"
+                ></path>
+              </svg>
+            </div>
+            <div class="play">
+              <svg
+                fill="#000000"
+                width="30"
+                height="30"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  fill-rule="evenodd"
+                  points="298.667 149.333 0 298.667 0 0"
+                  transform="translate(128 106.667)"
+                />
+              </svg>
+            </div>
+            <div class="next">
+              <svg
+                fill="#000000"
+                width="30"
+                height="30"
+                viewBox="0 0 32 32"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>forward</title>
+                <path
+                  d="M22.314 16l-8.485 8.485-2.829-2.828 5.657-5.657-5.657-5.657 2.828-2.828 8.486 8.485z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+            <div class="track-timer">
+              
+                <div class="bar"></div>
+              <div class="track">
+              <div class="total-time">03:20</div>
+              <div class="lasting-time">00:12</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="player" id="player-2">
+        <div class="wrapper"></div>
+      </div>
+      <div class="player" id="player-3">
+        <div class="wrapper"></div>
+      </div>
+    </div>
+  </body>
+</html>
